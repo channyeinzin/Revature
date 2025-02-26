@@ -10,7 +10,7 @@ export const Register:React.FC = () => {
     const register = async () => {
 
         //POST request with hardcoded user info
-        const response = await axios.post("http://localhost:8080/auth/register", {
+        const response = await axios.post("http://18.212.247.119:8080/auth/register", { 
             username:"reactUser",
             password:"password"
         })
