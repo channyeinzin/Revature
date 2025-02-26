@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/games")
 @CrossOrigin(value = {"http://localhost:5173",
-        "http://myp2bucketbjp.s3-website-us-east-1.amazonaws.com"},
+        "http://myp2bucket1.s3-website-us-east-1.amazonaws.com/"},
         allowCredentials = "true") //allows HTTP requests from our front end
 public class VideoGameController {
 

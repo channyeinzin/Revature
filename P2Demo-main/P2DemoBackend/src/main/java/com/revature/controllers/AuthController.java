@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController //Combines @Controller and @ResponseBody (makes a class a bean, and lets us send JSON responses)
 @RequestMapping("/auth") //Requests ending in /auth will go to this Controller
 @CrossOrigin(value = {"http://localhost:5173",
-        "http://myp2bucketbjp.s3-website-us-east-1.amazonaws.com"},
+        "http://myp2bucket1.s3-website-us-east-1.amazonaws.com/"},
         allowCredentials = "true") //This annotation will allow requests from our front end
 public class AuthController {
 

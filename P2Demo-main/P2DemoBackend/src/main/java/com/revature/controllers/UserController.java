@@ -16,7 +16,7 @@ import java.util.List;
 @RestController //Make this class a bean and turn HTTP response bodies into JSON
 @RequestMapping("/users") //Requests ending in /users will go to this Controller
 @CrossOrigin(value = {"http://localhost:5173",
-        "http://myp2bucketbjp.s3-website-us-east-1.amazonaws.com"},
+        "http://myp2bucket1.s3-website-us-east-1.amazonaws.com/"},
         allowCredentials = "true")
 public class UserController {
 
