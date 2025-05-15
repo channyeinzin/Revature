@@ -23,7 +23,7 @@ export const UserTable:React.FC = () => {
     const getAllUsers = async () => {
 
         try{
-            const response = await axios.get("http://localhost:8080/users", {withCredentials:true})
+            const response = await axios.get("http://18.212.247.119:8080/users", {withCredentials:true})
             //Again, we need withCredentials if the request requires specific session info (existence of a session, role stored in the session, etc)
 
             //TODO: error throwing code
