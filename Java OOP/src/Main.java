@@ -10,6 +10,7 @@ public class Main {
         p.open();
         p.close();
         p.open();
+        p.close();
         System.out.println(p.opened);
     }
 }
