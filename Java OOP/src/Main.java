@@ -11,9 +11,6 @@ public class Main {
         p.close();
 
 
-        p.open();
-        p.close();
-
         System.out.println(p.opened);
     }
 }
