@@ -13,7 +13,6 @@ public class Pen {
     }
     public static void close(){
         opened = false;
-        opened = false;
 
     }
 
