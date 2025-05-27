@@ -8,6 +8,8 @@ public class Pen {
 
     public static void open(){
         opened = true;
+        opened = true;
+
     }
     public static void close(){
         opened = false;
